@@ -1,0 +1,8 @@
+Method overriding:
+    allows us to have same name methods in parent class and child class.
+Why we should learn about method overriding?
+    Let say we are inheriting from a parent class that has 10 methods.We like 8 methods that we want to reuse, but
+    we don't like 2 of them, we want to provide implementation in a different way.
+    We use method overriding to override those 2 methods.
+What is the syntax of overriding?
+we simply redefine the method in a child class.

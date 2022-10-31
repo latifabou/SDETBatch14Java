@@ -1,0 +1,29 @@
+"this" keyword:
+    "this" is keyword like "class", "void"...
+It used in many places:
+   -for example if we have same name local variable and instance variable,we use
+   "this" to explicitly refer to an instance variable.
+   -we use "this()"to call a constructor inside another constructor.
+Why should we learn about "this" keyword?
+   -it allows us to have same name local variable and instance variable;
+   -if we have same code inside two constructors,we can reuse that code from
+   another constructor inside another constructor by using "this()".
+Inheritance:
+   Inheritance is mechanism in Java that allows us to use the fields/methods
+   of one class inside anther class.
+There are 4 types of inheritance:
+1)single inheritance= we have only one parent and one child class.
+employee-->person
+2)multilevel inheritance:
+  in multilevel inheritance, we have inheritance in multiples levels like grandfather
+  father--son--grandson
+3)hierarchical inheritance
+  One parent class and multiples direct child class
+4) Multiple inheritance:
+ one child class can directly inherit from multiple parent classes.
+ it is not supported by java because of diamond problem.
+Why we should learn about inheritance?
+   It also allows us to reduce duplicate code.
+What is the syntax?
+   we can use this feature by writing "extends" keyword when declaring a class
+
